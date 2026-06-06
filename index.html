@@ -1,13 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>asaadqamar.github.io</title>
+    <title>Asaad Qamar | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Asaad Qamar</div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#learnings">Learnings</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#socials">Socials</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero panel reveal" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Developer turned Cybersecurity enthusiast</p>
+            <h1>Building secure systems with a developer's mindset.</h1>
+            <p class="hero-text">
+              I pivoted from software development into cybersecurity to help teams build resilient digital defenses, learn modern attack techniques, and protect real-world systems.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#about">See my story</a>
+              <a class="button button-secondary" href="#socials">Connect</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="card card-highlight">
+              <span>Goal</span>
+              <p>Become a hands-on cybersecurity practitioner who can secure applications, systems, and cloud environments.</p>
+            </div>
+            <div class="card card-stats">
+              <div>
+                <strong>5+</strong>
+                <span>Years in tech</span>
+              </div>
+              <div>
+                <strong>3+</strong>
+                <span>Certifications</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reveal" id="about">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <p>A quick introduction with the view to where I am headed.</p>
+          </div>
+          <div class="grid-two">
+            <div class="panel card">
+              <h3>My journey</h3>
+              <p>
+                I began as a developer, building applications with clean code and strong logic. Over time, my interest shifted to protecting the systems I built, which led me to cybersecurity.
+              </p>
+            </div>
+            <div class="panel card">
+              <h3>Where I focus now</h3>
+              <p>
+                Today I explore threat analysis, secure engineering, vulnerability research, and the tools required to harden applications and infrastructures.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reveal" id="learnings">
+          <div class="section-heading">
+            <h2>Learnings</h2>
+            <p>Areas I study and practice every day.</p>
+          </div>
+          <div class="grid-three">
+            <article class="panel card">
+              <h3>Application Security</h3>
+              <p>Secure coding patterns, input validation, and protecting APIs from common attacks.</p>
+            </article>
+            <article class="panel card">
+              <h3>Network Defense</h3>
+              <p>Understanding network layers, firewalls, IDS/IPS, and attacker reconnaissance techniques.</p>
+            </article>
+            <article class="panel card">
+              <h3>Incident Response</h3>
+              <p>Investigating alerts, triaging suspicious behavior, and documenting remediation steps.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="certifications">
+          <div class="section-heading">
+            <h2>Certifications</h2>
+            <p>Credentials that validate my skills and continuous learning.</p>
+          </div>
+          <div class="cert-grid">
+            <div class="card card-cert">
+              <h3>CompTIA Security+</h3>
+              <p>Fundamental cybersecurity principles and practical security skills.</p>
+            </div>
+            <div class="card card-cert">
+              <h3>Certified Ethical Hacker</h3>
+              <p>Ethical hacking, penetration testing, and offensive security knowledge.</p>
+            </div>
+            <div class="card card-cert">
+              <h3>Azure Fundamentals</h3>
+              <p>Cloud security basics and best practices for Microsoft Azure.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reveal" id="socials">
+          <div class="section-heading">
+            <h2>Socials</h2>
+            <p>Find me online to connect, learn, or collaborate.</p>
+          </div>
+          <div class="panel card socials-card">
+            <a href="https://github.com/asaadqamar" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:hello@asaadqamar.dev">Email</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Designed for clarity and focus — transforming code into secure systems.</p>
+        <p>&copy; <span id="year"></span> Asaad Qamar</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
